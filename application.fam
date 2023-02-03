@@ -1,0 +1,7 @@
+    App(
+        appid="esp32_flasher",
+        name="ESP32 Flasher",
+        apptype=FlipperAppType.EXTERNAL,
+        entry_point="flasher_main",
+        stack_size=1 * 1024,
+    )    
